@@ -11,7 +11,7 @@ const markupGallery = createMarkupGallery(galleryItems);
 
 galleryList.insertAdjacentHTML('beforeend', markupGallery);
 
-// Создание динамической разметки
+// Создание динамической разметк
 function createMarkupGallery(array) {
   return array
     .map(({ preview, original, description }) => {
